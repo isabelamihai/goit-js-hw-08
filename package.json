@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/isabelamihai/icecream-project/",
+  "homepage": "https://github.com/isabelamihai/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /icecream-project/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isabelamihai/icecream-project"
+    "url": "git+https://github.com/isabelamihai/goit-js-hw-08"
   },
   "keywords": [],
   "author": "isabelamihai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isabelamihai/icecream-project/issues"
+    "url": "https://github.com/isabelamihai/goit-js-hw-08/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
