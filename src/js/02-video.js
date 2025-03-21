@@ -6,7 +6,7 @@ const saveCurrentTime = throttle(function () {
   player.getCurrentTime().then(function (seconds) {
     localStorage.setItem('videoplayer-current-time', seconds);
   });
-}, 1000); // Salvăm la fiecare secundă sau mai rar
+}, 1000);
 player.on('timeupdate', saveCurrentTime);
 const savedTime = localStorage.getItem('videoplayer-current-time');
 if (savedTime) {
